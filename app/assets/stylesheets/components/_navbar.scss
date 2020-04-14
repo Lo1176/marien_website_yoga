@@ -1,6 +1,13 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  // justify-content: space-between;
   background: white;
+  padding: 8px 24px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 25vw 50vw 25vw;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "gauche logo droite";
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -10,3 +17,27 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.left-navbar {
+  grid-area: gauche;
+  // background-color: red;
+  justify-self: left;
+}
+
+.center-logo {
+  grid-area: logo;
+  text-align: center;
+  // background-color: yellow;
+}
+
+.right-navbar {
+  grid-area: droite;
+  // background-color: red;
+  justify-self: center;
+
+}
+
+// .navbar-light .navbar-nav .nav-link {
+//   padding-bottom: 20px;
+
+// }
