@@ -1,27 +1,12 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "logo_yoga.svg" %>
+    <i class="fas fa-yin-yang" style="font-size: 40px"></i>
   <% end %>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <!-- logo-yoga -->
-  <div class="moving-letters pt-4 flex-start" type="submit">
-
-    <%= link_to root_path do %>
-      <h1 class="pb-4" style="font-size: 40px">
-
-        <span class="text-wrapper">
-          <span class="line line1"></span>
-          <span class="letters letters-left">Hatha</span>
-<!--           <span class="letters ampersand">&amp;</span>
- -->          <span class="letters ampersand"><i class="fas fa-yin-yang"></i></span>
-          <span class="letters letters-right">Yoga</span>
-          <span class="line line2"></span>
-        </span>
-      </h1>
-    <% end %>
-  </div>
+  <%= render 'shared/logo' %>
   <!-- ---------------- -->
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
