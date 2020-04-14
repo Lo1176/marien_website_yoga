@@ -63,3 +63,18 @@
   background-image: url("https://images.unsplash.com/photo-1560233026-ad254fa8da38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=310&q=80 310w");
 
 }
+
+// card info hatha
+.card-info {
+  background-color: white;
+  border-radius: 4px;
+  // box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+  //             0 2px 2px rgba(0,0,0,0.12),
+  //             0 4px 4px rgba(0,0,0,0.12);
+              // 0 8px 8px rgba(0,0,0,0.12),
+              // 0 16px 16px rgba(0,0,0,0.12);
+  display:flex;
+  flex-direction:column;
+  padding: 16px;
+
+}
