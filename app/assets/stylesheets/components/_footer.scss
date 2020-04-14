@@ -7,6 +7,16 @@
   height: 100px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
+  // grid area test
+  // -----------------
+  // grid-area: 4/1/5/2;
+  // or
+  // -----------------
+  // grid-row-start: 4;
+  // grid-column-start: 1;
+  // grid-row-end: 5;
+  // grid-column-end: 2;
+  // -----------------
   // position: absolute;
   // bottom: 0;
 }
