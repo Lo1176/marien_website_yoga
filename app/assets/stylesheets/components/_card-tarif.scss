@@ -1,6 +1,16 @@
-.card-tarif {
-  border-radius: 2px;
-  width: 200px;
-  height: 200px;
-  background-color: $blue;
+.container-tarif {
+  display: flex;
+  justify-content: space-between;
+    .card-tarif {
+      width: 360px;
+      height: 360px;
+      padding: 16px;
+      border-radius: 2px;
+      background-color: $green-blue1;
+      color: white;
+      text-align: justify;
+    }
+    .tarif-end {
+
+    }
 }
