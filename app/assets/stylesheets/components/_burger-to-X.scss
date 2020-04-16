@@ -1,0 +1,29 @@
+.nav-icon {
+  margin: 1em;
+  width: 32px;
+  height: 24px;
+}
+
+.nav-icon:after,
+.nav-icon:before,
+.nav-icon .burger-menu {
+  background-color: $green-blue1;
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 2px;
+  margin: 10px 0;
+  transition: all .2s ease-in-out;
+}
+
+.show .nav-icon:before {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.show .nav-icon:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+
+.show .nav-icon div {
+  transform: scale(0);
+}
