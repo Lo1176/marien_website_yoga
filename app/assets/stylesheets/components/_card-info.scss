@@ -1,5 +1,4 @@
 .card-info {
-  // display: flex;
   text-align: justify;
   padding-bottom: 16px;
     .avatar-large {
@@ -20,11 +19,4 @@
         }
 
     }
-}
-
-@media (min-width: 768px) {
-  .card-info {
-    display: flex;
-  }
-
 }

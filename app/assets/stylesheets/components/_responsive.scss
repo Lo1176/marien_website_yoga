@@ -1,25 +1,44 @@
 @media (max-width: 1018px) {
-  .moving-letters h1 {
-    font-size: 24px;
-  }
-  .navbar-lewagon {
-    // grid-template-columns: 32vw 20vw 32vw;
-
-  }
+    .moving-letters h1 {
+      font-size: 24px;
+    }
+    .small-devise {
+          display: none;
+        }
 }
 
 @media (max-width: 768px) {
-  .right-navbar {
-    display: none;
-  }
-  .navbar-lewagon {
-    grid-template-columns: 12vw 40vw 12vw;
+    .right-navbar {
+      display: none;
+    }
+    .navbar-lewagon {
+      grid-template-columns: 2vw 60vw 2vw;
 
-  }
-  .card-info .img-right {
-      margin-left: 0;
-  }
-  // .moving-letters h1 {
-  //   font-size: 24px;
-  // }
+    }
+    .card-info .img-right {
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .card-info {
+      display: flex;
+    }
+
+}
+
+
+
+@media (max-width: 560px) {
+    .small-devise {
+      display: inline-block;
+    }
+    .large-devise {
+      display: none;
+    }
+    .footer {
+      padding: 0 16px;
+    }
+
 }
