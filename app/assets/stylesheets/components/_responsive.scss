@@ -9,6 +9,16 @@
 }
 
 @media (max-width: 768px) {
+  .right-navbar {
+    display: none;
+  }
+  .navbar-lewagon {
+    grid-template-columns: 12vw 40vw 12vw;
+
+  }
+  .card-info .img-right {
+      margin-left: 0;
+  }
   // .moving-letters h1 {
   //   font-size: 24px;
   // }
