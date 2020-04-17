@@ -1,11 +1,14 @@
 .container-tarif {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
     .card-tarif {
-      width: 360px;
-      height: 360px;
+      min-width: 340px;
+      min-height: 360px;
       padding: 16px;
-      border-radius: 2px;
+      border-radius: 10px;
+      border: 8px solid white;
       background-color: $green-blue1;
       color: white;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
