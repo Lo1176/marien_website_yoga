@@ -1,7 +1,7 @@
 .nav-icon {
-  margin: 1em;
+  margin: 0;
   width: 32px;
-  height: 24px;
+  height: 32px;
 }
 
 .nav-icon:after,
@@ -27,3 +27,34 @@
 .show .nav-icon div {
   transform: scale(0);
 }
+
+.burger-to-X {
+    .list-group-item:first-child {
+      border: none;
+    }
+    .list-group-item {
+      padding: 0;
+    }
+    button:focus {
+      outline: none;
+    }
+    .btn-group, .btn-group-vertical {
+      vertical-align: baseline;
+    }
+    .dropdown-menu.show{
+      padding: 16px;
+
+    }
+    a {
+    //   padding-bottom: 20px;
+      color: $darkest-green;
+      opacity: 0.5;
+
+        &:hover {
+          opacity: 0.9;
+        }
+
+    }
+}
+
+

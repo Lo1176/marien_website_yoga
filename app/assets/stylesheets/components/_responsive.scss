@@ -5,11 +5,11 @@
 }
 
 @media (max-width: 768px) {
-    .right-navbar {
+    .extended-menu {
       display: none;
     }
     .navbar-lewagon {
-      grid-template-columns: 2vw 60vw 2vw;
+      grid-template-columns: 16vw 48vw 16vw;
 
     }
     .card-info .img-right {
@@ -21,6 +21,9 @@
 @media (min-width: 768px) {
     .card-info {
       display: flex;
+    }
+    .burger-to-X {
+      display: none
     }
 
 }
