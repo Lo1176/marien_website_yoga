@@ -40,18 +40,24 @@
     }
     .btn-group, .btn-group-vertical {
       vertical-align: baseline;
+      display: contents;
     }
     .dropdown-menu.show{
       padding: 16px;
+      text-align: center;
+      width: 100%;
+      border: none;
+      top: auto;
 
     }
     a {
     //   padding-bottom: 20px;
       color: $darkest-green;
-      opacity: 0.5;
+      opacity: 0.6;
 
         &:hover {
-          opacity: 0.9;
+          opacity: 1;
+          text-decoration: none;
         }
 
     }
