@@ -45,5 +45,8 @@
     .footer {
       padding: 0 16px;
     }
+    html {
+      scroll-behavior: auto !important;
+    }
 
 }
