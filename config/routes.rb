@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
 
-  scope ':locale', locale: /fr|ca/ do
+  scope '(:locale)', locale: /es|ca/ do
 
   root to: 'pages#home'
   end
+
+
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

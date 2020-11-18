@@ -25,8 +25,7 @@ module MarienWebsiteYoga
     I18n.available_locales = [:es, :ca, :fr]
 
     # Set default locale to something other than :en
-    I18n.default_locale = :es
-    # config.i18n.default_locale = :en
-
+    I18n.default_locale = :fr
+    # I18n.locale = :fr
   end
 end
