@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  scope ':locale', locale: /fr|ca/ do
+  scope '(:locale)', locale: /es|ca/ do
 
   root to: 'pages#home'
   end
